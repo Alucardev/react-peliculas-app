@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    padding-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.sub_title{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 3%;
+    font-style: italic;
+}

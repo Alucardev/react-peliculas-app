@@ -1,0 +1,36 @@
+.NavBar{
+    color: white;
+}
+
+.nav__list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-left: 10rem;
+}
+
+.items{
+    list-style: none;
+    margin-right: 2rem;
+    padding-right: 5%;
+}
+
+.items a{
+    text-decoration: none;
+}
+
+
+.items:first-child
+{
+    margin-right:auto;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.span{
+    color: red;
+}
