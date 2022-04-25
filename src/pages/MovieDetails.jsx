@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import styles from "./moviedetails.module.css"
 import { Spinner } from "../components/Spinner";
 import placeholder from "../placeholder.jpg"
+import {Footer} from "../components/Footer";
 
 
 export function MovieDetails() {
@@ -48,6 +49,7 @@ export function MovieDetails() {
           <strong>Description:</strong> {movie.overview}
         </p>
       </div>
+      <Footer/>
     </div>
   );
 }
