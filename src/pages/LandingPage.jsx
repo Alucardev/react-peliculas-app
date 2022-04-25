@@ -1,6 +1,7 @@
 import { MoviesGrid } from "../components/MoviesGrid";
 import { useDebounce } from "../hooks/useDebounce";
 import {useQuery} from "../hooks/useQuery";
+import {Footer} from "../components/Footer";
 
 
 
@@ -14,6 +15,7 @@ export function LandingPage(){
     return ( 
           <div>
             <MoviesGrid key={debouncedSearch} search={debouncedSearch}/>
+            <Footer></Footer>
           </div> 
     );
 }

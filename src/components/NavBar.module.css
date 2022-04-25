@@ -1,5 +1,7 @@
 .NavBar{
     color: white;
+    margin: 0 auto;
+    padding: 0%;
 }
 
 .nav__list{
@@ -34,3 +36,16 @@
 .span{
     color: red;
 }
+
+
+@media (max-width: 600px) {
+    .nav__list {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .items {
+        margin: 0 auto;
+    }
+
+  }
