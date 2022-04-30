@@ -31,6 +31,7 @@ export function MovieDetails() {
 
   const imageUrl = movie.poster_path ? "http://image.tmdb.org/t/p/w300" + movie.poster_path : placeholder;
   return (
+    <div>
     <div className={styles.detailsContainer}>
       <img
         className={`${styles.col} ${styles.movieImage}`}
@@ -49,7 +50,8 @@ export function MovieDetails() {
           <strong>Description:</strong> {movie.overview}
         </p>
       </div>
-      <Footer/>
     </div>
+    </div>
+
   );
 }

@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { MovieDetails} from "./pages/MovieDetails";
 import { LandingPage } from "./pages/LandingPage";
 import {NavBar} from "./components/NavBar";
+import {Footer} from "./components/Footer";
 
 
 
@@ -19,6 +20,9 @@ export function App() {
             </Routes>
             
         </main>
+        <footer>
+          <Footer/>
+        </footer>
       </Router>
     );
   }
